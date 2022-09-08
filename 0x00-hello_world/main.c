@@ -4,10 +4,10 @@
  * Return: Always 0 (Success)
  */
 
-    int main(void)
+int main(void)
 
 {
-
-    return (0);
+	printf("Hello World");
+	    return (0);
 
 }
