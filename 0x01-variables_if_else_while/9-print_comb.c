@@ -7,24 +7,17 @@
  */
 int main(void)
 {
-
-		int ade;
-
-
-	for (ade = 48; ade < 58; ade++)
-
-	{
-	putchar(ade);
-
-	if (ade != 57)
+	int ade;
 	
-															{
-															putchar(',');
-															putchar(' ');
-															}
+	for (ade = 48; ade < 58; ade++)
+	{
+		putchar(ade);
+		if (ade != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
