@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdio.time>
+#include <time.h>
 #include <stdlib.h>
 /**
  * main - Entry point
@@ -22,6 +22,7 @@ int main(void)
 	}
 
 	else if (n == 0)
+	
 	{
 		printf("%d is zero\n", n);
 	}
