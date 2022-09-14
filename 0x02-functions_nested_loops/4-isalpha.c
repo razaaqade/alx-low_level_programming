@@ -5,7 +5,7 @@
  *
  * return: 0
  */
-int isalpha(int c);
+int isalpha(int c)
 {
 	if (c >= 65 && c <= 122)
 		return (1);
