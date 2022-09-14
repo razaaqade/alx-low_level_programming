@@ -1,17 +1,18 @@
 #include "main.h"
 
-/*
- * main - entry point
- *
- * return: always 0
+/**
+ * print_last_digit - return last digit
+ *@n : number to check
+ * Return: 0 or 1
  */
-int print_last_digit(int a);
+int print_last_digit(int n)
 {
-	if (a >= 0 && a <= 9)
-		return (a);
+	int nv;
+
+	if (n < 0)
+		nv = -1 * (n % 10);
 	else
-	{
-		a = _abs(a % 10);
-		return (a);
-	}
+		nv = n % 10;
+	_putchar(nv + '0');
+	return (nv);
 }

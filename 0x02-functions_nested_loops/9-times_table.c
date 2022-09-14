@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
- * main - entry point
+/**
+ * times_table - Prints the 9 times table
  *
- * return always 0
+ * Return: no return
  */
-void times_table(void);
+void times_table(void)
 {
 	int a;
 	int b;
@@ -18,7 +18,7 @@ void times_table(void);
 			c = a * b;
 			if ((c / 10) == 0)
 			{
-				if b ==0
+				if b == 0
 				{
 					_putchar ('0');
 				}

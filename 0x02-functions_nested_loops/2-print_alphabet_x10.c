@@ -1,11 +1,9 @@
 #include "main.h"
 
-/*
- * main - entry point
+/**
+ *print_alphabet_x10 - print a - z ten times
  *
- * print_alphabet_x10 - print a - z ten times
- *
- * return: always 0
+ *Return: Always 0
  */
 void print_alphabet_x10(void)
 {

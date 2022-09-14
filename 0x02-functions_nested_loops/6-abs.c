@@ -1,17 +1,12 @@
 #include "main.h"
 
-/*
- * main - entry point
+/**
+ * _abs - return abs value
+ * @n : number to check
  *
- * return: always 0
+ * Return: 0 or 1
  */
 int _abs(int n);
 {
-	if (n > 0)
-		return (n);
-	else
-	{
-		n *= -1;
-		return (n);
-	}
+	return (n >= 0 ? n : n * -1)
 }

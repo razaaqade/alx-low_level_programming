@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
- * main - entry point
+/**
+ * jack_bauer - prints every minute of the day of Jack Bauer
  *
- * return: always 0
+ * Return:void
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int a;
 	int b;

@@ -1,14 +1,16 @@
 #include "main.h"
 
-/*
- * main - entry point
+/**
+ * _isalpha - Shows 1 if the input is a letter, another cases, shows 0
  *
- * return: 0
+ * @c: The character in ASCII code
+ *
+ * Return: 1 for letter. 0 for the rest
  */
-int isalpha(int c)
+int _isalpha(int c)
 {
 	if (c >= 65 && c <= 122)
 		return (1);
-	else 
+	else
 		return (0);
 }
