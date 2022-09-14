@@ -1,6 +1,6 @@
-#ifndef MAIN_H_INCLUDED
+#ifndef _main_h_
 
-#define MAIN_H_INCLUDED
+#define _main_h_
 
 int _putchar(char c);
 
