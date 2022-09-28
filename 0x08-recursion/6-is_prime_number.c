@@ -3,7 +3,6 @@
 int tmp_prime(int n, int i);
 
 /**
- *
  * divisors - number is prime
  *
  * @n: integar params
@@ -29,7 +28,6 @@ int divisors(int n, int m)
 }
 
 /**
- *
  * is_prime_number - prime
  *
  * @n: integar params
